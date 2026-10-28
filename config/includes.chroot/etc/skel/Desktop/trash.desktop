@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Корзина
+Comment=Удалённые файлы
+Exec=thunar trash:///
+Icon=user-trash-full
+Terminal=false
+Categories=System;

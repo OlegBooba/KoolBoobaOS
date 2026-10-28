@@ -1,0 +1,99 @@
+/* ============================================================
+   Win7-KoolBooba GTK3 theme
+   Лёгкая тема, стилизованная под Windows 7 Aero:
+   синие акценты, скруглённые кнопки, светлые панели
+   ============================================================ */
+
+@define-color win7_blue #2a79c9;
+@define-color win7_blue_dark #1c5ea3;
+@define-color win7_taskbar #e9f1fb;
+@define-color win7_taskbar_border #a9c6e4;
+@define-color win7_bg #f0f3f7;
+@define-color win7_text #1a1a1a;
+
+* {
+    -GtkScrollbar-has-backward-stepper: false;
+    -GtkScrollbar-has-forward-stepper: false;
+}
+
+window {
+    background-color: @win7_bg;
+    color: @win7_text;
+}
+
+/* Кнопки — скруглённые как в Aero */
+button {
+    background-image: linear-gradient(to bottom, #ffffff, #dceafc);
+    border: 1px solid @win7_blue_dark;
+    border-radius: 4px;
+    color: @win7_text;
+    padding: 4px 10px;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, #eaf4ff, #bcdcff);
+}
+
+button:active {
+    background-image: linear-gradient(to bottom, #bcdcff, #8fc4ff);
+}
+
+/* Панель задач (XFCE panel) — имитация Win7 taskbar */
+#xfce4-panel {
+    background-image: linear-gradient(to bottom, #d6e7fb, #aecdf0 40%, #8fb8e8);
+    border-top: 1px solid #ffffff;
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.25);
+}
+
+/* Кнопка "Пуск" — зелёная, круглая как оригинал */
+#whiskermenu-button {
+    background-image: linear-gradient(to bottom, #8fd48f, #4caf50 40%, #2e7d32);
+    border-radius: 50%;
+    border: 1px solid #1b5e20;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Заголовки окон */
+headerbar, .titlebar {
+    background-image: linear-gradient(to bottom, #cfe4fb, #9cc4ec);
+    border-bottom: 1px solid @win7_blue_dark;
+    color: @win7_text;
+    font-weight: bold;
+}
+
+/* Скругление окон */
+decoration {
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+}
+
+/* Поля ввода */
+entry {
+    border: 1px solid #a0a0a0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 3px 6px;
+}
+
+entry:focus {
+    border-color: @win7_blue;
+    box-shadow: 0 0 0 1px @win7_blue;
+}
+
+/* Прогрессбары — синие, как Aero */
+progressbar progress {
+    background-image: linear-gradient(to bottom, #6fb3f7, #2a79c9);
+    border-radius: 3px;
+}
+
+/* Меню */
+menu, .menu {
+    background-color: #ffffff;
+    border: 1px solid #a9c6e4;
+    border-radius: 4px;
+}
+
+menuitem:hover {
+    background-image: linear-gradient(to bottom, #d6e9fd, #aed4fb);
+}

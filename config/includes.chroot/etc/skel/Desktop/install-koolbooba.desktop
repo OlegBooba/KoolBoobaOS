@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Установить KoolBoobaOS
+Comment=Установка KoolBoobaOS на жёсткий диск
+Exec=sudo /usr/local/bin/koolbooba-install.sh
+Icon=system-software-install
+Terminal=true
+Categories=System;

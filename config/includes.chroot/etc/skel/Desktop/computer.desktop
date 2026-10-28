@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Мой компьютер
+Comment=Просмотр дисков и папок
+Exec=thunar /
+Icon=computer
+Terminal=false
+Categories=System;

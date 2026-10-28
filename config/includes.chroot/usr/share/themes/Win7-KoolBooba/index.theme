@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Win7-KoolBooba
+Comment=Windows 7-like theme for KoolBoobaOS (XFCE4)
+
+[X-GNOME-Metatheme]
+GtkTheme=Win7-KoolBooba
+MetacityTheme=Win7-KoolBooba
+IconTheme=Win7-KoolBooba-Icons
+CursorTheme=DMZ-White
+ButtonLayout=O|SHMC

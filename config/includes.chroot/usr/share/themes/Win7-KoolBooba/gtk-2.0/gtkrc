@@ -1,0 +1,4 @@
+# Win7-KoolBooba gtk2 fallback (использует системную тему Clearlooks как базу)
+gtk-icon-theme-name = "Win7-KoolBooba-Icons"
+gtk-theme-name = "Clearlooks"
+gtk-font-name = "Segoe UI 9"

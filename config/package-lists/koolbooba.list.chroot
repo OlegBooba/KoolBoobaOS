@@ -1,0 +1,87 @@
+# ============================================================
+# KoolBoobaOS — пакеты системы
+# Debian base + XFCE4 + компоненты для Win7-подобного интерфейса
+# ============================================================
+
+# --- Базовая система ---
+task-xfce-desktop
+xfce4
+xfce4-goodies
+xfce4-panel
+xfce4-whiskermenu-plugin
+xfce4-taskmanager
+xfce4-appfinder
+xfce4-power-manager
+xfce4-screenshooter
+xfce4-notifyd
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfdesktop4
+thunar
+thunar-archive-plugin
+thunar-volman
+
+# --- Дисплей менеджер (похож на Windows logon) ---
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+# --- Темы оформления под Windows 7 ---
+gtk2-engines-murrine
+gtk2-engines-pixbuf
+xcursor-themes
+lxappearance
+
+# --- Шрифты (похожие на Segoe UI набор) ---
+fonts-dejavu
+fonts-liberation
+fonts-noto
+fonts-droid-fallback
+
+# --- Сеть ---
+network-manager
+network-manager-gnome
+
+# --- Звук ---
+pulseaudio
+pavucontrol
+
+# --- Архивы / офис / базовые приложения (замена Win7 бандла) ---
+file-roller
+galculator
+mousepad
+ristretto
+parole
+gnome-system-monitor
+synaptic
+gdebi
+
+# --- Браузер ---
+firefox-esr
+
+# --- Утилиты установки и разметки диска ---
+gparted
+grub-pc
+grub-efi-amd64
+os-prober
+
+# --- Графический установщик на диск ---
+calamares
+calamares-settings-debian
+
+# --- Системные утилиты ---
+sudo
+bash-completion
+htop
+curl
+wget
+nano
+vim
+unzip
+zip
+p7zip-full
+rsync
+build-essential
+plymouth
+plymouth-themes

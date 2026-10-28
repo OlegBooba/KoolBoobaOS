@@ -1,0 +1,33 @@
+---
+componentName: koolbooba
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName: "KoolBoobaOS"
+    shortProductName: "KoolBoobaOS"
+    version: "1.0"
+    shortVersion: "1.0"
+    versionedName: "KoolBoobaOS 1.0"
+    shortVersionedName: "KoolBoobaOS 1.0"
+    bootloaderEntryName: "KoolBoobaOS"
+    productUrl: "https://github.com/"
+    supportUrl: "https://github.com/"
+    releaseNotesUrl: "https://github.com/"
+
+images:
+    productLogo: "logo.png"
+    productIcon: "logo.png"
+    productWelcome: "welcome.png"
+
+slideshow: "show.qml"
+
+style:
+   sidebarBackground: "#2a79c9"
+   sidebarText: "#ffffff"
+   sidebarTextSelect: "#1c5ea3"
