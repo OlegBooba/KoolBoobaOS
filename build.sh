@@ -56,7 +56,9 @@ lb config noauto \
     --archive-areas "main contrib non-free non-free-firmware" \
     --mirror-bootstrap "http://deb.debian.org/debian/" \
     --mirror-binary "http://deb.debian.org/debian/" \
-    --mirror-security "http://security.debian.org/debian-security/" \
+    --mirror-binary-security "http://security.debian.org/debian-security/" \
+    --mirror-chroot-security "http://security.debian.org/debian-security/" \
+    --security true \
     --binary-images iso-hybrid \
     --architecture amd64 \
     --linux-flavours amd64 \
